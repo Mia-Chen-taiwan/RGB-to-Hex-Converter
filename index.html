@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RGB to Hex Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="slidecontainer">
+        <div class="slide-item" id="slide-R">
+          <div class="title-blocks" id="R-title">R</div>
+          <input type="range" min="0" max="255" value="0" class="slider" id="R">
+          <div class="outputs" id="R-output">0</div>
+        </div>
+        <div  class="slide-item" id="slide-G">
+          <div class="title-blocks" id="G-title">G</div>
+          <input type="range" min="0" max="255" value="0" class="slider" id="G">
+          <div  class="outputs" id="G-output">0</div>
+        </div>
+        <div  class="slide-item" id="slide-B">
+          <div class="title-blocks" id="B-title">B</div>
+          <input type="range" min="0" max="255" value="0" class="slider" id="B">
+          <div  class="outputs" id="B-output">0</div>
+        </div>
+        <div id="hex">#000000</div>
+      </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
